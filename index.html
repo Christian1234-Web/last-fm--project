@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>last-fm</title>
+</head>
+<body>
+ <div class=" container_lastFm">
+     <section class="navbar-stand">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top col-sm-12" style="height: 60px; background-color: black;">
+        <div class="container-fluid">
+          <a class="" style="height: 50px;" href="#"><img src="/images/img-1-album.png" class="" style="height: 40px;" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+             
+              <li class="nav-item " style="margin-left: 400px;">
+                <a class="nav-link text-danger fs-2" href="#" tabindex="-1">last.fm</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+             
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 14px;">
+                <li class="nav-item">
+                  <a class="nav-link active text-light" aria-current="page" href="#"><img src="images/search-logo2.png" alt=""></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">  Live</a>
+                  </li>  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Music</a>
+                  </li>  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Charts</a>
+                  </li>  <li class="nav-itemtext-light">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Events</a>
+                  </li>  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Features</a>
+                  </li>  <li class="nav-item">
+                    <a class="nav-link active text-light disabled fw-bolder" aria-current="page" href="#">.</a>
+                  </li>  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Log In</a>
+                  </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn  text-black fw-bolder p-2 " style="background-color: rgb(180, 177, 177); font-size: 12px; border-radius: 5px;">SIGN UP</button> 
+                  </li>
+                </ul>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+<br>
+    <section class="sec-2 col-sm-12">
+        <div class="img-holder col-sm-12">
+            <h1>Explore Top Music Powered by your Scrobbles</h1>
+            <p>We bring together your favourite music services and join up listening, watching and sharing to connect your musical world. 
+                <br> Below you can visualise, in real-time, the listening habits & trends of Last.fm's global community. Go Explore</p>
+            <!-- <img src="/last-fm/images/img-background.jpg" alt=""> -->
+        </div>
+        </section>
+<section class="random-numbers">
+
+<div class="text-header">
+    <span>
+    <p id="spiking">Spiking Artists</p>
+    <p id="snd-p">These artists are trending globally on Last.fm right now</p>
+    <p id="click">Click one to explore the artist and their similar artists</p>
+    </span>
+</div>
+<div class="random-img">
+<div class="random-img1">
+<div class="image-1 img-group"data-bs-toggle="tooltip" data-bs-placement="top" title="Cardi b">
+    <!-- <img src="/last-fm/images/img-taylor.png" alt=""> -->
+    <p>1</p>
+</div>
+<div class="image-2 img-group"data-bs-toggle="tooltip" data-bs-placement="top" title="Migos">
+    <!-- <img src="/last-fm/images/img-the-creator.png" alt=""> -->
+    <p>2</p>
+</div><div class="image-3 img-group"data-bs-toggle="tooltip" data-bs-placement="top" title="Playi boy">
+    <!-- <img src="/last-fm/images/img-tomorow.png" alt=""> -->
+    <p>3</p>
+</div><div class="image-4 img-group"data-bs-toggle="tooltip" data-bs-placement="top" title="Lil uzi">
+    <!-- <img src="/last-fm/images/img-weekend.png" alt=""> -->
+    <p>4</p>
+</div><div class="image-5 img-group"data-bs-toggle="tooltip" data-bs-placement="top" title="Little monster">
+    <!-- <img src="/last-fm/images/img-juice.png" alt=""> -->
+    <p>5</p>
+</div>
+<div class="image-6 img-group"data-bs-toggle="tooltip" data-bs-placement="top" title="Zayne">
+    <!-- <img src="/last-fm/images/img-21.png" alt=""> -->
+    <p>6</p>
+</div>
+<div class="image-13 img-group"data-bs-toggle="tooltip" data-bs-placement="top" title="Taylor swift">
+    <!-- <img src="/last-fm/images/img-21.png" alt=""> -->
+    <p>13</p>
+</div><div class="image-14 img-group"data-bs-toggle="tooltip" data-bs-placement="top" title="Ariana grande">
+    <!-- <img src="/last-fm/images/img-21.png" alt=""> -->
+    <p>14</p>
+</div><div class="image-15 img-group"data-bs-toggle="tooltip" data-bs-placement="top" title="Adele">
+    <!-- <img src="/last-fm/images/img-21.png" alt=""> -->
+    <p>15</p>
+</div><div class="image-16 img-group"data-bs-toggle="tooltip" data-bs-placement="top" title="Khalid">
+    <!-- <img src="/last-fm/images/img-21.png" alt=""> -->
+    <p>16</p>
+</div>
+</div>
+<div class="center-img">
+    <img src="/images/img-2-center.png" alt="">
+    <p>BTS</p>
+</div>
+<div class="random-img2">
+<div class="image-7 img-group"data-bs-toggle="tooltip" data-bs-placement="top" title="Imagine dragons">
+    <!-- <img src="/last-fm/images/img-ariana.png" alt=""> -->
+    <p>7</p>
+</div>
+<div class="image-8 img-group"data-bs-toggle="tooltip" data-bs-placement="top" title="Shew mendes">
+    <!-- <img src="/last-fm/images/img-august.png" alt=""> -->
+    <p>8</p>
+</div><div class="image-9 img-group"data-bs-toggle="tooltip" data-bs-placement="top" title="Juice wurld">
+    <!-- <img src="/last-fm/images/img-bellie.png" alt=""> -->
+    <p>9</p>
+</div><div class="image-10 img-group"data-bs-toggle="tooltip" data-bs-placement="top" title="Drake">
+    <!-- <img src="/last-fm/images/img-bladee.png" alt=""> -->
+    <p>10</p>
+</div><div class="image-11 img-group"data-bs-toggle="tooltip" data-bs-placement="top" title="Justin bieber">
+    <!-- <img src="/last-fm/images/img-drake.png" alt=""> -->
+    <p>11</p>
+</div>
+<div class="image-12 img-group"data-bs-toggle="tooltip" data-bs-placement="top" title="Twenty one pilot">
+    <!-- <img src="/last-fm/images/img-exo.png" alt=""> -->
+    <p>12</p>
+</div>
+<div class="image-17 img-group" data-bs-toggle="tooltip" data-bs-placement="top" title="Beyonce">
+    <!-- <img src="/last-fm/images/img-21.png" alt=""> -->
+    <p>17</p>
+</div><div class="image-18 img-group">
+    <!-- <img src="/last-fm/images/img-21.png" alt=""> -->
+    <p>18</p>
+</div><div class="image-19 img-group" data-bs-toggle="tooltip" data-bs-placement="top" title="Rihana">
+    <!-- <img src="/last-fm/images/img-21.png" alt=""> -->
+    <p>19</p>
+</div><div class="image-20 img-group" data-bs-toggle="tooltip" data-bs-placement="top" title="Little monkey">
+    <!-- <img src="/last-fm/images/img-21.png" alt=""> -->
+    <p>20</p>
+</div>
+</div>
+</div>
+
+<section class="hr-line">
+    <hr>
+<div class="content-hr">
+    
+    <div class="text-1">
+      <a href="#">BTS</a> -
+      <a href="#">Butter</a>
+    </div>
+    <div class="text-2">
+        <p>Plays: 804,188,918</p>
+    </div>
+</div>
+<hr>
+</section>
+
+<section class="sec-3">
+    <!-- <div class="group-text2"> -->
+        <div class="text-content1">
+<h1>Spiking Tracks</h1>
+<p>The songs currently making the most waves across Last.fm worldwide</p>
+
+<div class="music-img1">
+    <div class="music-p">
+        <p>1</p>
+    </div>
+    <div class="text-bts">
+        <p>Butter</p>
+        
+        <p class="light">BTS</p>
+    </div>
+</div>
+
+<div class="music-img2">
+    <div class="music-p">
+        <p>2</p>
+    </div>
+    <div class="text-bts">
+        <p>Dynamite</p>
+        
+        <p class="light">BTS</p>
+    </div>
+</div>
+<div class="music-img3">
+   <div class="music-p">
+    <p>3</p>
+</div>
+    <div class="text-bts">
+            <p>Butter (Instrumental)</p>
+            <p class="light">BTS</p>
+        </div>
+    </div>
+<div class="music-img4">
+    <div class="music-p">
+        <p>4</p>
+    </div>
+<div class="text-bts">
+    <p>Butter (Hotter Remix)</p>
+    <p class="light">BTS</p>
+</div>
+</div>
+<div class="music-img5">
+    <div class="music-p">
+        <p>5</p>
+    </div>
+    <div class="text-bts">
+    <p>Alcohol-Free</p>
+    <p class="light">TWICE</p>
+</div> 
+        </div>
+
+        <div class="map-group">
+            <h1>Around The World</h1>
+            <p>What's being listened to right now and where? How popular is that track across the 
+                <br> globe?</p>
+                <p class="map-bold">Select a country to explore worldwide listening trends</p>
+               <div class="map-pic">
+                <img src="images/img-worldmap-2.png" alt="">
+                <img src="images/img-worldmap.png" alt="">
+            </div>
+           
+        </div>
+        <div style="border-left: 2px solid white; margin-left: 100px;margin-top: 100px;">
+
+        </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      </div>
+    
+        <div class="text-content2">
+<h1>All Time Scrobbles</h1>
+<p>A live global counter showing the total number of tracks listened to by Last.fm users</p>
+<p>since 2003</p>
+
+<div class="numbers">
+    <div class="number-1">
+        <p>1</p>
+    </div>
+    <div class="number-1">
+        <p>2</p>
+    </div>
+    <div class="number-1">
+        <p>6</p>
+    </div>
+    <div class="umber-1">
+        <p>,</p>
+    </div>
+    <div class="number-1">
+        <p>7</p>
+    </div>
+    <div class="number-1">
+        <p>5</p>
+    </div>
+    <div class="number-1">
+        <p>5</p>
+    </div>
+    <div class="umber-1">
+        <p>,</p>
+    </div>
+    <div class="number-1">
+        <p>0</p>
+    </div>
+    <div class="number-1">
+        <p>3</p>
+    </div>
+    <div class="number-1">
+        <p id="upNext">4</p>
+    </div>
+    <div class="umber-1">
+        <p>,</p>
+    </div>
+    <div class="number-1">
+        <p class="fourthNub">1</p>
+    </div>
+    <div class="number-1">
+        <p class="fourthNub">4</p>
+    </div>
+    <div class="number-1">
+        <p class="fourthNub">5</p>
+    </div>
+</div>
+
+<div class="small-lastFm">
+    <p>Last.fm is </p>    
+    
+    <a href="#"> ambient</a>
+</div>
+<!-- <hr> -->
+<div class="pond-hr">
+    <div class="text-1-1">
+      <a href="#">Pond</a> -
+      <a href="#">Colder Than Ice</a>
+    </div>
+    <div class="text-2-2">
+        <p>Plays: 133,014</p>
+    </div>
+</div>
+
+<div class="fade-in-group">
+    <h1>Today's Most Loved</h1>
+    <p>Tracks loved by the most listeners</p>
+    <p class="fade-bold">Hit play to see if you love it too</p>
+</div>
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade w-75" data-bs-ride="carousel" style="margin-left: 50px; margin-top: 50px;">
+    <div class="carousel-inner" style="margin-left: 80px; width: 400px;">
+      <div class="carousel-item active caro">
+        <img src="images/img-fade1.png" class="d-block w-75  moveFade" alt="...">
+       <br>
+        <div class="fade-text-anchor">
+        <div class="anchor-fade">
+           <a href="#">BTS</a> -
+           <a href="#">Spring day</a>
+        </div>
+      <div class="text-fada">
+        <p>plays:132,003,49</p>
+      </div>
+      </div>
+    </div>
+      <div class="carousel-item caro">
+        <img src="/images/img-fade2.png" class="d-block w-75  moveFade" alt="...">
+        <br>
+        <div class="fade-text-anchor">
+        <div class="anchor-fade">
+            <a href="#">Poppy</a> -
+            <a href="#">See Cheese</a>
+         </div>
+       <div class="text-fada">
+         <p>Plays:53</p>
+       </div>
+      </div>
+    </div>
+      <div class="carousel-item caro">
+        <img src="/images/img-fade3.png" class="d-block w-75  moveFade" alt="...">
+        <br>
+        <div class="fade-text-anchor">
+        <div class="anchor-fade">
+            <a href="#">Poppy</a> -
+            <a href="#">CUE</a>
+         </div>
+       <div class="text-fada">
+         <p>plays:55</p>
+       </div>
+      </div>
+    </div>
+      <div class="carousel-item caro">
+        <img src="images/img-fade4.png" class="d-block w-75  moveFade" alt="...">
+        <br>
+        <div class="fade-text-anchor">
+        <div class="anchor-fade">
+            <a href="#">BTS</a> -
+            <a href="#">21st century girl</a>
+         </div>
+       <div class="text-fada">
+         <p>plays:123,765,909</p>
+       </div>
+      </div>
+    </div>
+       <div class="carousel-item caro">
+        <img src="/images/img-fade5.png" class="d-block w-75  moveFade" alt="...">
+        <br>
+        <div class="fade-text-anchor">
+        <div class="anchor-fade">
+            <a href="#">BTS</a> -
+            <a href="#">Butter</a>
+         </div>
+       <div class="text-fada">
+         <p>plays:130,340,123</p>
+       </div>
+      </div>
+      </div> <div class="carousel-item caro">
+        <img src="/images/img-fade6.png" class="d-block w-75  moveFade" alt="...">
+        <br>
+        <div class="fade-text-anchor">
+        <div class="anchor-fade">
+            <a href="#">Poppy</a> -
+            <a href="#">Breeders </a>
+         </div>
+       <div class="text-fada">
+         <p>Plays:</p>
+       </div>
+      </div> 
+    </div>
+      <div class="carousel-item caro">
+        <img src="/images/img-fade7.png" class="d-block w-75  moveFade" alt="...">
+        <br>
+        <div class="fade-text-anchor">
+        <div class="anchor-fade">
+            <a href="#">BTS</a> -
+            <a href="#">Seredipity (new edition)</a>
+         </div>
+       <div class="text-fada">
+         <p>Plays:123,098,560</p>
+       </div>
+      </div>
+    </div>
+      <div class="carousel-item caro">
+        <img src="/images/img-fade8.png" class="d-block w-75  moveFade" alt="...">
+        <br>
+       <div class="fade-text-anchor">
+        <div class="anchor-fade">
+            <a href="#">Olivia rodrique</a> -
+            <a href="#">Good for you</a>
+         </div>
+       <div class="text-fada">
+         <p>Plays:104,874,0877</p>
+       </div>
+      </div>
+    </div>
+    <div class="love-icon" style="margin-top: -350px; margin-left: 100px; opacity: 0.9;">
+      <img src="/images/img-love.png" alt="">
+    </div>
+    </div>
+    <button class="carousel-control-prev mx-6 " type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon " aria-hidden="true"  style="margin-left: 40px; width: 100px; height: 100px;"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+   
+  </div>
+
+        </div>
+      
+</section>
+
+<section class="deafhea" style="margin-left: 90px;">
+<div class="maphr-img w-50 p-1" style="background-color: black;">
+    <div class="anchor-map">
+       <a href="#">DMX</a> -
+       <a href="#">Select a country for more information</a>
+    </div>
+  <div class="text-map">
+    <p>plays:132,003</p>
+  </div>
+  </div> 
+  
+  <div class="deaf-sec">
+  <p class="deaf-pp">Deafhea</p>
+  <p class="venn-red">venn</p>
+  </div>     
+<div class="deaf-text">
+  <p class="deaf-bold">Want to hear some 80s Electronic? How about some millennial Metal?</p>
+  <p class="deaf-light">Drag the circles to explore various sounds from different eras </p>
+  <img src="/images/img-rolling-1.png" style="width: 650px; cursor: pointer;" alt="">
+</div>
+<div class="maphr-img w-50 p-1" style="background-color: black;">
+  <div class="anchor-map">
+     <a href="#">Rickey Nelson</a> -
+     <a href="#">Your True Love</a>
+     <!-- <img src="/last-fm/images/img-play.png" alt=""> -->
+  </div>
+<div class="text-map">
+  <p>plays:6,658</p>
+</div>
+</div> 
+</section>    
+
+<section class="sliding-content">
+  
+  <div id="carouselExampleIndicators" class="carousel slide w-100" data-bs-ride="carousel">
+
+    <div class="carousel-inner w-100">
+     
+        <div class="carousel-item active">
+          <a href="#">
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="/images/img-slide1.webp" class="img-fluid" alt=" ">
+                        <div class="main-text-group">
+                          <div class="red-pppp">
+                        <p > DISCOVER</p>
+                      </div>
+                      <div  class="main-ppp">
+                        <p >Albums of 2020:the latest of loved, and the <br> ones to look out for</p>
+
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="/images/ing-slide2.webp" class="img-fluid" alt=" ">
+                        <div class="main-text-group">
+                          <div class="red-pppp">
+                            <p>FEST.FM</p>
+                          </div>
+                       <div class="main-ppp">
+                        <p >Our Photo Recap od VOOODOO Music & Arts <br>Experience 2019</p>
+                       </div>
+                       
+                    </div>
+                  </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="/images/img-slide3.webp" class="img-fluid" alt=" ">
+                        <div class="main-text-group">
+                          <div class="red-pppp">
+                            <p > FEST.FM</p>
+                          </div>
+                       <div class="main-ppp">
+                        <p >Skrillex, Doja Cat, and more: MTV's SnowGlobe <br> Music Festival 2019 in 50 Photo</p>
+                       </div>
+                        
+                    </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+      </a>
+        <div class="carousel-item">
+            <a href="#">
+                <div class="container-fluid">
+                    <div class="row text-center">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <img src="/images/img-slide4.webp" class="img-fluid" alt=" ">
+                            <div class="main-text-group">
+                            <div class="red-pppp">
+                            <p> Charts & Trends</p>
+                           </div>
+                          <div class="main-ppp">
+                            <p >
+                              Girl In Red, YUNGBLUD, Lil Nas X: Last.fm's <br> biggest  breakout artists of 2019
+                          </p>
+                          </div>
+                           
+                        </div>
+                      </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <img src="/images/img-slide5.webp" class="img-fluid" alt=" ">
+                            <div class="main-text-group">
+                            <div class="red-pppp">
+                            <p >Spotlight</p>
+                           </div>
+                    
+                           <div class="main-ppp">
+                            <p >
+                              On the rise: a Women's History Month <br> playlist
+                          </p>
+                           </div>
+                          </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <img src="/images/img-slide6.webp" class="img-fluid" alt=" ">
+                            <div class="main-text-group">
+                            <div class="red-pppp">
+                            <p > Spotlight</p>
+                           </div>
+                            <div class="main-ppp">
+                              <p >
+                                On the rise: a Women's History Month <br> playlist
+                            </p>
+                            </div>
+                           
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="carousel-item">
+            <a href="#">
+                <div class="container-fluid">
+                    <div class="row text-center">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <img src="/images/img-slide7.webp" class="img-fluid" alt=" ">
+                            <div class="main-text-group">
+                            <div class="red-pppp">
+                            <p > Spotlight</p>
+                           </div>
+                           <div class="main-ppp">
+                            <p >
+                              Girls to the front: celebrating the sounds <br> of Riot Grrrl
+                          </p>
+                           </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <img src="/images/img-slide8.webp" class="img-fluid" alt=" ">
+                            <div class="main-text-group">
+                            <div class="red-pppp">
+                            <p > Fest.fm</p>
+                           </div>
+                           <div  class="main-ppp">
+                            <p>
+                              Exploring the local sounds and scenes at <br> Noise Pop 2020
+                          </p>
+                           </div>
+                          </div>
+                            
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <img src="/images/img-slide9.webp" class="img-fluid" alt=" ">
+                            <div class="main-text-group">
+                            <div class="red-pppp">
+                            <p > Fest.fm</p>
+
+                           </div>
+                           <div class="main-ppp">
+                            <p >
+                              6 artists that blew our minds at Noise <br> Pop Festival 2020
+                            </p>
+                           </div>
+                        </div>
+                      </div>
+                        <!-- <div class="col-lg-2 col-md-6 col-sm-12">
+                          <img src="/last-fm/images/img-slide10.webp" class="img-fluid" alt=" ">
+                          <p class="red-pppp">Spotlight</p>
+                          <p class="main-ppp">
+                            Exploring the local sounds and scenes at Noise Pop 2020
+                        </p>
+
+                      </div> -->
+                        
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="boooton">
+    <button class="carousel-control-prev next-prev" type="button" data-bs-target="#carouselExampleIndicators"
+    data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Prev</span>
+</button>
+    <button class="carousel-control-next next-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+</section>
+
+
+<section class="footer">
+<div class="footer-first-sec">
+<div class="footer-1">
+<p>COMPANY</p>
+<a href="#">About Last.fm</a> <br>
+<a href="#">Contact Us</a> <br>
+<a href="#">Jobs</a>
+
+</div>
+<div class="footer-2">
+  <p>HELP</p>
+  <a href="#">Track My Music</a> <br>
+  <a href="#">Community Support</a> <br>
+  <a href="#">Community Guidelines</a> <br>
+  <a href="#">Help</a>
+</div>
+<div class="footer-3">
+  <p>GOODIES</p>
+  <a href="#">Download Scrobbler</a> <br>
+  <a href="#">Developer API</a> <br>
+  <a href="#">Free Music Downloads</a> <br>
+  <a href="#">Merchandise</a>
+</div>
+
+<div class="footer-4">
+  <p>ACCOUNT</p>
+  <a href="#">Sign Up</a> <br>
+  <a href="#">Log In</a> <br>
+  <a href="#">Subscribe</a>
+</div>
+<div class="footer-5">
+  <p>FOLLOW US</p>
+  <a href="#">Facebook</a> <br>
+  <a href="#">Twitter</a> <br>
+  <a href="#">Instagram</a> <br>
+  <a href="#">YouTube</a>
+</div>
+<br>
+
+</div>
+<hr>
+<div class="footer-second-sec">
+  <div class="footer-second-p">
+    <p id="engilish">English</p>
+    <p>Deutsch </p>
+    <p>Español</p>
+    <p>Français </p>
+    <p>Italiano</p>
+    <p>日本語 </p>
+    <p>Polski</p>
+    <p>Português</p>
+    <p>Русский </p>
+    <p>Svenska </p>
+    <p>Türkçe </p>
+    <p>简体中文</p>
+  </div>
+  <div class="footer-sceond-img">
+    <p>Audioscrobbler</p><img src="/images/footer_logo.png" alt="">
+  </div>
+</div>
+<div class="footer-3rd">
+  <p>Time zone:</p>
+  <p id="africa" >Africa/Lagos</p>
+</div>
+<div class="footer-fourth-p">
+  <p>CBS Interactive © 2021 Last.fm Ltd. All rights reserved.  </p>
+  <p>Terms of Use.</p>
+  <p>Privacy Policy. </p>
+  <p>Legal Policies.</p>
+  <p>California Privacy/Info We Collect. </p>
+
+ 
+</div>
+<div class="footer-fourth-p">
+ 
+  <p>Do Not Sell My Personal Information.</p>
+  <p>Jobs at ViacomCBS.</p>
+  <p>Last.fm Music. </p>
+</div>
+</section>
+</section>
+
+
+ </div>
+
+
+
+
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/last.js"></script>
+</body>
+</html>
